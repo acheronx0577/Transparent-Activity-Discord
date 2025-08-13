@@ -2,7 +2,7 @@
  * @name Transparent Activity
  * @author AcheronX.
  * @description Make Activity transparent fit with theme. 
- * @source 
+ * @source https://github.com/acheronx0577/Transparent-Activity-Discord
  * @version 0.0.1
  * @website https://github.com/acheronx0577
  */
@@ -77,4 +77,5 @@ div.interactionsContainer_af3b89 {
         min-height: 32px;
         padding: 4px 8px;
     }
+
 }
