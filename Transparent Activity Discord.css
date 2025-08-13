@@ -1,0 +1,80 @@
+/**
+ * @name Transparent Activity
+ * @author AcheronX.
+ * @description Make Activity transparent fit with theme. 
+ * @source 
+ * @version 0.0.1
+ * @website https://github.com/acheronx0577
+ */
+
+/* 🖤 Main container background */
+.container__0f2e8 {
+    background-color: rgba(0, 0, 0, 0.234);
+}
+
+/* 🪟 Popout glass effect */
+div.popoutContentWrapper_af3b89 {
+    background: rgba(30, 31, 34, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 🌈 Transparent scroll area */
+.popoutContentWrapper_af3b89 .scroller__4f984 {
+    background: transparent !important;
+}
+
+/* 🎚️ Scrollbar styling */
+.popoutContentWrapper_af3b89 ::-webkit-scrollbar {
+    width: 6px !important;
+}
+.popoutContentWrapper_af3b89 ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* 💡 Interactions panel */
+div.interactionsContainer_af3b89 {
+    background: rgba(30, 31, 34, 0.7) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+    padding: 8px !important;
+}
+
+/* 🔘 Rounded buttons */
+.buttonsInner__5126c {
+    border-radius: 10px !important;
+    padding: 5px 5px;
+}
+
+/* ⭕ Perfect circle buttons */
+.hoverBarButton_f84418 {
+    border-radius: 13px !important;
+}
+
+/* 🍔 Menu styling */
+.layer_da8173 > .menu_c1e9c4 {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+/* 📜 Menu scroll area */
+.layer_da8173 > .menu_c1e9c4 > .scroller_c1e9c4 {
+    border-radius: inherit !important;
+    margin: -4px;
+}
+
+/* 🧩 Menu items spacing */
+.layer_da8173 > .menu_c1e9c4 > .scroller_c1e9c4 {
+    .separator_c1e9c4 {
+        margin: 1px 8px !important;
+    }
+    .wrapper_f563df {
+        padding: 2px !important;
+    }
+    .item_c1e9c4 {
+        min-height: 32px;
+        padding: 4px 8px;
+    }
+}
